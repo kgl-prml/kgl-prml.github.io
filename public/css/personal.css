@@ -1,0 +1,48 @@
+li.post {
+  margin-bottom: 0.1em;
+}
+
+span.post-date {
+  display: inline;
+}
+
+.sidebar-about h1 {
+  font-size: 2.0rem;
+  font-weight: normal;
+}
+
+pre.bibitem {
+  display: none;
+}
+
+span.bibtex {
+  cursor: pointer;
+  font-style: italic;
+}
+
+span.copyme {
+  font-style: italic;
+  color: black;
+}
+
+img.clipboard {
+  display: inline;
+  width: 23px;
+  height: 23px; 
+  vertical-align: middle;
+  margin-bottom: 5px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+img.smallFloatLeft {
+  width: 160px;
+  float: left;
+  margin-right: 1em;
+}
+
+img.smallMiddle {
+  width: 200px;
+  margin: 0 auto
+}
+

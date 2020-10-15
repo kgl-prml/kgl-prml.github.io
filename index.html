@@ -1,0 +1,25 @@
+---
+layout: page
+---
+
+<h1> About me </h1>
+<p>
+I am currently a Postdoctoral Research Associate at Carnegie Mellon University, working with <a href="https://www.cs.cmu.edu/~alex/">Alexander G. Hauptmann</a>. I achieved my Ph.D. degree in 2019 from University of Technology Sydney, advised by Prof. <a href="https://reler.net/people/yi_yang/index.html"> Yi Yang </a>. 
+<br>
+<br>
+My research interests include deep learning, and its applications in various computer vision tasks, e.g. visual domain adapation, sementaic segmentation, video analysis, etc.  </p>
+<!--
+<div style="clear:both"></div>
+-->
+
+<h3>Latest news</h3>
+
+<ul class="posts">
+  {% for post in paginator.posts %}
+  <li class="post">
+    <span class="post-date">{{ post.date | date_to_string }}:&nbsp;</span>
+    {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+  </li>
+  {% endfor %}
+</ul>
+
